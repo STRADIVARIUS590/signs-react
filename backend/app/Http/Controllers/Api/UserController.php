@@ -9,13 +9,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Validator;
+use JsonSerializable;
 
 class UserController extends Controller
 {
     
     public function login(Request $request){
+
+        error_log(json_encode($request->all()));
         $user = User::whereName($request->name)->first();
 
+        error_log(json_encode($user));
         if(!$user || !Hash::check($request->password, $user->password)){
             return response()->json([
                 'message' => 'Ha ocurrido un error',
