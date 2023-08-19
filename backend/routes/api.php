@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\CategoryController;
 use App\Http\Controllers\Api\UserController;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -38,4 +39,10 @@ Route::middleware('auth:sanctum')->group(function(){
         Route::get('/logout', 'logout');
     });
     
+
+});
+
+Route::controller(CategoryController::class)->prefix('/categories')->group(function(){
+    Route::get('/', 'index');
+    Route::get('/{id}', 'show');
 });

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Abecedario",
+        "images": [
+            {
+                "name": "abecedario.png",
+                "type": "icono"
+            }
+        ]
+    },
+    {
+        "name": "Adjetivos",
+        "images": []
+    },
+    {
+        "name": "Alimentos",
+        "images": []
+    },
+    {
+        "name": "Animales",
+        "images": []
+    },
+    {
+        "name": "Calendario",
+        "images": []
+    },
+    {
+        "name": "Casa",
+        "images": []
+    },
+    {
+        "name": "Colores",
+        "images": []
+    },
+    {
+        "name": "Cuerpo humano",
+        "images": []
+    }
+]

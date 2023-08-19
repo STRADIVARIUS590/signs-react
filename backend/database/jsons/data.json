@@ -1,0 +1,340 @@
+[
+    {
+        "meaning": "A",
+        "images": [
+            {
+                "name": "a.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "B",
+        "images": [
+            {
+                "name": "b.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "C",
+        "images": [
+            {
+                "name": "c.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "D",
+        "images": [
+            {
+                "name": "d.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "E",
+        "images": [
+            {
+                "name": "e.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "F",
+        "images": [
+            {
+                "name": "f.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "G",
+        "images": [
+            {
+                "name": "g.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "H",
+        "images": [
+            {
+                "name": "h.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "I",
+        "images": [
+            {
+                "name": "i.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "J",
+        "images": [
+            {
+                "name": "j.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "K",
+        "images": [
+            {
+                "name": "k.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "L",
+        "images": [
+            {
+                "name": "l.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "M",
+        "images": [
+            {
+                "name": "m.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "N",
+        "images": [
+            {
+                "name": "n.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "O",
+        "images": [
+            {
+                "name": "o.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "P",
+        "images": [
+            {
+                "name": "p.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "Q",
+        "images": [
+            {
+                "name": "q.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "R",
+        "images": [
+            {
+                "name": "r.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "S",
+        "images": [
+            {
+                "name": "s.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "T",
+        "images": [
+            {
+                "name": "t.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "U",
+        "images": [
+            {
+                "name": "u.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "V",
+        "images": [
+            {
+                "name": "v.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "W",
+        "images": [
+            {
+                "name": "w.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "X",
+        "images": [
+            {
+                "name": "x.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "Y",
+        "images": [
+            {
+                "name": "y.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    },
+    {
+        "meaning": "Z",
+        "images": [
+            {
+                "name": "z.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Abecedario"
+            }
+        ]
+    }
+]
