@@ -21,7 +21,7 @@ class Image extends Model
 
     public function getUrlAttribute(){
 
-        return URL::to('').'/'.$this->get_folder().'/storage/'.$this->name;
+        return URL::to('').'/storage/'.$this->get_folder().'/'.$this->name;
     }
 
     protected function get_folder(){
