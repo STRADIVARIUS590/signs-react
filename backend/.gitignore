@@ -2,8 +2,6 @@
 /node_modules
 /public/build
 /public/hot
-/asdasdpublic/storage
-/storage/*.key
 /vendor
 .env
 .env.backup
