@@ -21,12 +21,12 @@ class Image extends Model
 
     public function getUrlAttribute(){
 
-        return URL::to('').'/storage/'.$this->get_folder().'/'.$this->name;
+        return URL::to('').'/storage/'.$this->name;
     }
 
     protected function get_folder(){
         $imageable = Imageable::where('image_id', $this->id)->first(); 
 
-        return $imageable ? Str::plural(strtolower(class_basename($imageable->imageable_type))) : '';
+        // return $imageable ? Str::plural(strtolower(class_basename($imageable->imageable_type))) : '';
     }
 }
