@@ -224,3 +224,41 @@ body, html {
     font-size: 50px;
     ;
 }
+
+/*  */
+
+
+.categorie-body-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: aliceblue;
+    justify-content: space-between; /* Alinea las tarjetas horizontalmente */
+}
+
+.categorie-card {
+    width: calc(33.33% - 2rem); /* Aproximadamente un tercio del ancho con espacio para el margen */
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    background-color: blue;
+    justify-content: space-around;
+    margin: 1rem;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+    box-shadow: black;
+    color: black;
+    border-radius: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.categorie-card:hover{
+    scale: 1.02;
+    box-shadow: 1px 1px 2px black;
+}
+
+.categorie-card img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
