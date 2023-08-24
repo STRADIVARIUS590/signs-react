@@ -6,34 +6,42 @@
                 "name": "abecedario.png",
                 "type": "icono"
             }
-        ]
+        ],
+        "color": "#FFB6C1"
     },
     {
         "name": "Adjetivos",
-        "images": []
+        "images": [],
+        "color": "#ADD8E6"
     },
     {
         "name": "Alimentos",
-        "images": []
+        "images": [],
+        "color": "#FFFF99"
     },
     {
         "name": "Animales",
-        "images": []
+        "images": [],
+        "color": "#98FB98"
     },
     {
         "name": "Calendario",
-        "images": []
+        "images": [],
+        "color": "#E6E6FA"
     },
     {
         "name": "Casa",
-        "images": []
+        "images": [],
+        "color": "#FFD700"
     },
     {
         "name": "Colores",
-        "images": []
+        "images": [],
+        "color": "#AFEEEE"
     },
     {
         "name": "Cuerpo humano",
-        "images": []
+        "images": [],
+        "color": "#FFDAB9"
     }
 ]

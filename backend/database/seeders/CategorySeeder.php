@@ -19,7 +19,8 @@ class CategorySeeder extends Seeder
         foreach($data as $item){
 
             $category = Category::create([
-                'name' => $item['name']
+                'name' => $item['name'],
+                'color' => $item['color']
             ]);
 
             foreach($item['images'] as $item){
