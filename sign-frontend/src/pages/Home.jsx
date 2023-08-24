@@ -23,7 +23,6 @@ function Home() {
             .then((data) => {
                 console.log(data.data.image.url);
                 setUrl(data.image.url)
-                console.log(url)
             })
             .catch((error) => {
             });

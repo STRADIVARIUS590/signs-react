@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -27,7 +28,7 @@ body, html {
     gap: 5rem;
     font-size: 24px;
     color: white;
-    
+
     margin: 0;
     padding: 0;
 }
@@ -41,7 +42,7 @@ body, html {
 .how-to-play {
     text-decoration: underline;
     color: white;
-    
+
     font-size: 20px;
 }
 
@@ -61,27 +62,27 @@ body, html {
     justify-content: space-around;
 }
 
-.home-container a{
+.home-container a {
     font-size: 2rem;
     color: white;
-    
+
 
 }
 
-.home-options{
+.home-options {
     display: flex;
     gap: 2rem;
     color: whitesmoke;
     font-size: 24px;
 }
 
-.home-options h1{
+.home-options h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 2rem;
 }
 
 
-.home-options-card-learn{
+.home-options-card-learn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +93,7 @@ body, html {
     background-color: #00A106;
 }
 
-.home-options-card-rules{
+.home-options-card-rules {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +104,7 @@ body, html {
     background-color: rgb(48, 104, 173);
 }
 
-.home-buttons{
+.home-buttons {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -111,7 +112,7 @@ body, html {
     margin-bottom: 12rem;
 }
 
-.signin-button{
+.signin-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,12 +124,12 @@ body, html {
     transition: all 0.3s ease-in-out;
 }
 
-.signin-button:hover{
+.signin-button:hover {
     background-color: rgb(235, 92, 92);
     animation: shake 0.5s ease-in-out;
 }
 
-.register-button{
+.register-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,21 +141,26 @@ body, html {
     transition: all 0.3s ease-in-out;
 }
 
-.register-button:hover{
+.register-button:hover {
     background-color: rgb(98, 172, 245);
     animation: shake 0.5s ease-in-out;
 }
 
 @keyframes shake {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: rotate(0deg);
     }
+
     25% {
         transform: rotate(-10deg);
     }
+
     50% {
         transform: rotate(10deg);
     }
+
     75% {
         transform: rotate(-10deg);
     }
@@ -164,7 +170,7 @@ body, html {
 /*  */
 
 
-.login-container{
+.login-container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -178,26 +184,28 @@ body, html {
     background-size: cover;
 }
 
-.login-inputs{
+.login-inputs {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
 
-.login-inputs input{
-    border: none; /* Elimina todos los bordes */
+.login-inputs input {
+    border: none;
+    /* Elimina todos los bordes */
     padding-left: 24px;
     font-size: 32px;
     width: 400px;
-    border-bottom: 1px solid rgb(212, 212, 212); /* Agrega un borde inferior de 1px de grosor en color negro */
+    border-bottom: 1px solid rgb(212, 212, 212);
+    /* Agrega un borde inferior de 1px de grosor en color negro */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.login-inputs input:focus{
+.login-inputs input:focus {
     border-radius: 20px;
 }
 
-.login-container button{
+.login-container button {
     width: 40rem;
     height: 4rem;
     border-radius: 20px;
@@ -209,18 +217,18 @@ body, html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.login-container button:hover{
+.login-container button:hover {
     background-color: rgba(31, 65, 152, 0.93);
 }
 
-.login-container a{
+.login-container a {
     margin-top: 1rem;
     color: black;
     text-align: center;
     font-size: 18px;
 }
 
-.login-container h1{
+.login-container h1 {
     font-size: 50px;
     ;
 }
@@ -233,32 +241,56 @@ body, html {
     flex-wrap: wrap;
     width: 100%;
     background-color: aliceblue;
-    justify-content: space-between; /* Alinea las tarjetas horizontalmente */
+    justify-content: space-between;
+    /* Alinea las tarjetas horizontalmente */
 }
 
 .categorie-card {
-    width: calc(33.33% - 2rem); /* Aproximadamente un tercio del ancho con espacio para el margen */
+    width: calc(33.33% - 2rem);
+    /* Aproximadamente un tercio del ancho con espacio para el margen */
     display: flex;
     align-items: center;
     height: 10rem;
-    background-color: blue;
     justify-content: space-around;
     margin: 1rem;
-    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+    box-sizing: border-box;
+    /* Incluye el padding y el borde en el ancho */
     box-shadow: black;
     color: black;
     border-radius: 15px;
     transition: all .2s ease-in-out;
 }
 
-.categorie-card:hover{
+
+
+.categorie-card:hover {
     scale: 1.02;
     box-shadow: 1px 1px 2px black;
 }
 
-.categorie-card img{
+.categorie-card:hover img {
+    scale: 1.02;
+    box-shadow: 1px 1px 2px black;
+    animation: rotacion .2s linear;
+}
+
+
+@keyframes rotacion {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.categorie-card img {
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
 }
 
+.carousel-indicators {
+    display: none;
+}
