@@ -347,9 +347,6 @@
         "categories":[
             {
                 "name": "Adjetivos"
-            },
-            {
-                "name": "Cuerpo humano"
             }
 
         ]
@@ -364,9 +361,6 @@
         "categories": [
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -380,10 +374,7 @@
         "categories": [
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
-            }
+            } 
         ]
     },
     {
@@ -396,10 +387,7 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
-            }
+            } 
         ]
     },
     {
@@ -412,10 +400,7 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
-            }
+            } 
         ]
     },
     {
@@ -428,10 +413,7 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
-            }
+            } 
         ]
     },
     {
@@ -444,10 +426,7 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
-            }
+            } 
         ]
     },
     {
@@ -460,9 +439,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -476,9 +452,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -492,9 +465,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -508,9 +478,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -526,9 +493,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -543,9 +507,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -561,9 +522,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -578,9 +536,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     }, {
@@ -593,9 +548,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -610,9 +562,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -627,9 +576,6 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -643,20 +589,153 @@
         "categories":[
             {
                 "name":"Cuerpo humano"
-            },
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Abeja",
+        "images":[
             {
-                "name": "Adjetivos"
+                "name":"abeja.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Aguila",
+        "images":[
+            {
+                "name":"aguila.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Alacran",
+        "images":[
+            {
+                "name":"alacran.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+    
+    {
+        "meaning": "Almeja",
+        "images":[
+            {
+                "name":"almeja.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+    {
+        "meaning": "Animal",
+        "images":[
+            {
+                "name":"animal.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+
+
+    {
+        "meaning": "Ardilla",
+        "images":[
+            {
+                "name":"ardilla.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Asno",
+        "images":[
+            {
+                "name":"asno.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+    {
+        "meaning": "Borrego",
+        "images":[
+            {
+                "name":"borrego.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Bufalo",
+        "images":[
+            {
+                "name":"bufalo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
+            }
+        ]
+    },
+    
+    {
+        "meaning": "Buho",
+        "images":[
+            {
+                "name":"buho.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Animales"
             }
         ]
     }
-
-
-
-
-
-
-
-
 
    
 ]
