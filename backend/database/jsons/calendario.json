@@ -154,5 +154,103 @@
                 "name": "Calendario"
             }
         ]
+    },
+    {
+        "meaning": "Lunes",
+        "images": [
+            {
+                "name": "lunes.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Martes",
+        "images": [
+            {
+                "name": "martes.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+    {
+        "meaning": "Miercoles",
+        "images": [
+            {
+                "name": "miercoles.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Jueves",
+        "images": [
+            {
+                "name": "jueves.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Viernes",
+        "images": [
+            {
+                "name": "viernes.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Sabado",
+        "images": [
+            {
+                "name": "sabado.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Domingo",
+        "images": [
+            {
+                "name": "domingo.png"
+            }
+        ],
+        "categories": [
+            {
+                "name": "Calendario"
+            }
+        ]
     }
+
+
 ]
