@@ -336,5 +336,327 @@
                 "name": "Abecedario"
             }
         ]
+    },
+    {
+        "meaning": "Codo",
+        "images": [
+            {
+                "name": "codo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            },
+            {
+                "name": "Cuerpo humano"
+            }
+
+        ]
+    },
+    {
+        "meaning": "Barba",
+        "images":[
+            {
+                "name": "barba.png"
+            }
+        ],
+        "categories": [
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Barbilla",
+        "images":[
+            {
+                "name": "barbilla.png"
+            }
+        ],
+        "categories": [
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Bigote",
+        "images":[
+            {
+                "name":"bigote.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Boca",
+        "images":[
+            {
+                "name":"Boca.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Brazo",
+        "images":[
+            {
+                "name":"brazo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Cadera",
+        "images":[
+            {
+                "name":"cadera.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Cara",
+        "images":[
+            {
+                "name":"cara.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Ceja",
+        "images":[
+            {
+                "name":"ceja.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Cuello",
+        "images":[
+            {
+                "name":"cuello.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Diente",
+        "images":[
+            {
+                "name":"diente.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Espalda",
+        "images":[
+            {
+                "name":"espalda.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Estomago",
+        "images":[
+            {
+                "name":"estomago.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+
+ {
+        "meaning": "Frente",
+        "images":[
+            {
+                "name":"frente.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Garganta",
+        "images":[
+            {
+                "name":"garganta.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    }, {
+        "meaning": "Hombro",
+        "images":[
+            {
+                "name":"hombro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Labio",
+        "images":[
+            {
+                "name":"labio.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Lengua",
+        "images":[
+            {
+                "name":"lengua.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Mano",
+        "images":[
+            {
+                "name":"mano.png"
+            }
+        ],
+        "categories":[
+            {
+                "name":"Cuerpo humano"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
     }
+
+
+
+
+
+
+
+
+
+   
 ]
