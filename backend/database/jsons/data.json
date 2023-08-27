@@ -735,7 +735,367 @@
                 "name":"Animales"
             }
         ]
+    },
+    {
+        "meaning" : "Aceite",
+        "images": [
+            {
+                "name": "aceite.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+
+    },
+    
+ {
+        "meaning" : "Agrio",
+        "images": [
+            {
+                "name": "agrio.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            },
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+
+    {
+        "meaning" : "Agua",
+        "images": [
+            {
+                "name": "agua.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+    {
+        "meaning" : "Alimento",
+        "images": [
+            {
+                "name": "alimento.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+
+    },
+
+    {
+        "meaning" : "Apetito",
+        "images": [
+            {
+                "name": "apetito.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+
+    },
+
+    {
+        "meaning" : "Arroz",
+        "images": [
+            {
+                "name": "arroz.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+
+    },
+    {
+        "meaning": "Atole",
+        "images": [
+            {
+                "name": "atole.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+     {
+        "meaning": "avena",
+        "images": [
+            {
+                "name": "avena.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+     {
+        "meaning": "Azucar",
+        "images": [
+            {
+                "name": "azucar.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+     {
+        "meaning": "Bacardi",
+        "images": [
+            {
+                "name": "bacardi.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+     {
+        "meaning": "Cafe",
+        "images": [
+            {
+                "name": "cafe.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Caldo",
+        "images": [
+            {
+                "name": "caldo.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+    {
+        "meaning": "Carne",
+        "images": [
+            {
+                "name": "carne.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+    {
+        "meaning": "Catsup",
+        "images": [
+            {
+                "name": "catsup.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+    {
+        "meaning": "Cena",
+        "images": [
+            {
+                "name": "cena.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+     {
+        "meaning": "Cereal",
+        "images": [
+            {
+                "name": "cereal.png"
+            }
+        ],
+
+        "categories": [
+            {    
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Cerveza",
+        "images": [
+            {
+                "name": "cerveza.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+      {
+        "meaning": "Chicle",
+        "images": [
+            {
+                "name": "chicle.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+    {
+        "meaning": "Coca-cola",
+        "images": [
+            {
+                "name": "coca-cola.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+
+    {
+        "meaning": "Comida",
+        "images": [
+            {
+                "name": "comida.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Desayuno",
+        "images": [
+            {
+                "name": "desayuno.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+    
+    {
+        "meaning": "Ensalada",
+        "images": [
+            {
+                "name": "ensalada.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+
+    {
+        "meaning": "Hamburguesa",
+        "images": [
+            {
+                "name": "hamburguesa.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
+    },
+
+
+    {
+        "meaning": "Harina",
+        "images": [
+            {
+                "name": "harina.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Alimentos"
+            }
+        ]
     }
 
+
+    
    
 ]
