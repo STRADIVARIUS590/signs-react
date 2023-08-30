@@ -294,3 +294,95 @@ html {
 .carousel-indicators {
     display: none;
 }
+
+/*  */
+
+
+.game-body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-dia-mundial-animales-dibujado-mano-animales_23-2149625083.jpg?w=2000');
+}
+
+.go-back-button {
+    position: absolute;
+    top: 2rem;
+    right: 90%;
+    background-color: aliceblue;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.go-back-button:hover {
+    animation: shake 0.5s ease-in-out;
+}
+
+.game-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: 50rem;
+    background-image: url('./assets/fondo-game.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+
+.game-body h1 {
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.game-body img {
+    margin-top: 4rem;
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    border: solid 5px black;
+}
+
+.game-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* Espacio entre los botones, ajusta según tus preferencias */
+}
+
+/* Estilos adicionales para los botones si es necesario */
+.game-options button {
+    padding: 10px;
+    width: 18rem;
+    height: 4rem;
+    color: black;
+    border: solid 1px black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: 24px;
+}
+
+.game-options button:hover {
+    scale: 1.05;
+    box-shadow: 1px 1px 2px black;
+    text-decoration: dashed;
+}
+
+/* Estilos CSS personalizados para los botones de la alerta */
+.red-button {
+    background-color: red !important;
+    color: white !important;
+    border: none;
+}
+
+.gray-button {
+    background-color: gray !important;
+    color: white !important;
+}

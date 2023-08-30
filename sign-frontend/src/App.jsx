@@ -8,6 +8,7 @@ import Register from './pages/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Categories from './pages/Categories'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Game from './pages/Game';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/categories" element={<Categories />} />
-
+          <Route path="/game" element={<Game />} />
         </Routes>
       </>
     </Router>

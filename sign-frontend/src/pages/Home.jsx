@@ -50,10 +50,10 @@ function Home() {
                         <h1>Reglas</h1>
                     </div>
                 </div>
-                <div className="home-buttons">
+                {localStorage.getItem('toke') ? (<div className="home-buttons">
                     <Link to={`/login`}><a className="signin-button">Iniciar Sesion</a></Link>
                     <Link to={'/register'}><a className="register-button">Registrarme</a></Link>
-                </div>
+                </div>) : ('')}
             </div>
             {/* <img src={url} alt="No se carga la imagen" /> */}
         </>
