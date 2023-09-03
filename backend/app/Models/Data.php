@@ -17,4 +17,10 @@ class Data extends Model
     public function categories(){
         return $this->belongsToMany(Category::class);
     }
+
+    public function questions(){
+        return $this->belongsToMany(Question::class);
+    }
+
+    
 }

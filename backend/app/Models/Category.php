@@ -25,4 +25,9 @@ class Category extends Model
     public function getImageAttribute(){
         return $this->images()->first();
     }
+
+    public function getQuestionsAttribute(){
+        return $this->data()
+                    ->with(['questions'])->get()->pluck('questions')->flatten()->count();
+    }
 }

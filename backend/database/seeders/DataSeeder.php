@@ -45,5 +45,33 @@ class DataSeeder extends Seeder
             }
             
         }
+
+
+        $data = json_decode(file_get_contents('database/jsons/calendario.json'), true);
+
+        foreach($data as $item){
+
+            $data = Data::create([
+                'meaning' => $item['meaning'],
+            ]);
+
+            foreach($item['images'] as $image_data){
+                $image = Image::create([
+                    'name' => $image_data['name']
+                ]);
+
+                $data->images()->attach($image);
+            }
+
+            $categories = Category::get();
+            foreach($item['categories'] as $category_data){
+                $category = $categories->where('name', $category_data['name'])->first();
+
+                if($category){
+                    $data->categories()->attach($category);
+                }
+
+            }
+        }
     }
 }
