@@ -761,9 +761,6 @@
         "categories":[
             {
                 "name": "Alimentos"
-            },
-            {
-                "name": "Adjetivos"
             }
         ]
     },
@@ -1093,9 +1090,206 @@
                 "name": "Alimentos"
             }
         ]
+    },
+
+
+      {
+        "meaning": "Amarillo",
+        "images": [
+            {
+                "name": "amarillo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+     {
+        "meaning": "Anaranjado",
+        "images": [
+            {
+                "name": "anaranjado.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+      {
+        "meaning": "Azul Rey",
+        "images": [
+            {
+                "name": "azul-rey.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+        {
+        "meaning": "Blanco",
+        "images": [
+            {
+                "name": "blanco.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+    {
+        "meaning": "Brillante",
+        "images": [
+            {
+                "name": "brillante.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+       {
+        "meaning": "Bronce",
+        "images": [
+            {
+                "name": "bronce.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+    
+
+      {
+        "meaning": "Cafe",
+        "images": [
+            {
+                "name": "cafe-color.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+        {
+        "meaning": "Claro",
+        "images": [
+            {
+                "name": "claro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+          {
+        "meaning": "Color",
+        "images": [
+            {
+                "name": "color.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+
+         {
+        "meaning": "Morado",
+        "images": [
+            {
+                "name": "morado.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+
+         {
+        "meaning": "Negro",
+        "images": [
+            {
+                "name": "negro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+
+
+
+
+         {
+        "meaning": "Rojo",
+        "images": [
+            {
+                "name": "rojo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
+    },
+         {
+        "meaning": "Verde",
+        "images": [
+            {
+                "name": "verde.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Colores"
+            }
+        ]
     }
 
 
+
+
+
+
+
+
+    
+
+    
+    
     
    
 ]
