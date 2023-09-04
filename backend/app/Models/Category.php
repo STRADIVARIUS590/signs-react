@@ -5,12 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use function Laravel\Prompts\error;
+
 class Category extends Model
 {
     use HasFactory;
 
     protected $appends = [
-        'image'
+        'image',
+        'question_count'
     ];
 
     
@@ -28,6 +31,10 @@ class Category extends Model
 
     public function getQuestionsAttribute(){
         return $this->data()
-                    ->with(['questions'])->get()->pluck('questions')->flatten()->count();
+                    ->with(['questions'])->get()->pluck('questions')->flatten();
+    }
+
+    public function getQuestionCountAttribute(){
+        return $this->getQuestionsAttribute()->count();
     }
 }

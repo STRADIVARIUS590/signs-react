@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\CategoryController;
+use App\Http\Controllers\Api\GameController;
 use App\Http\Controllers\Api\UserController;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -18,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+ Auth::loginUsingId(1); 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -39,6 +41,11 @@ Route::middleware('auth:sanctum')->group(function(){
         Route::get('/logout', 'logout');
     });
     
+
+    Route::controller(GameController::class)->prefix('/game')->group(function(){
+        Route::get('/{category_id?}', 'new_game');
+        Route::post('/', 'check');
+    });
 
 });
 

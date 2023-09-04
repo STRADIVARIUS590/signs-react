@@ -1,5 +1,6 @@
 <?php
 
+use App\Providers\te;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 

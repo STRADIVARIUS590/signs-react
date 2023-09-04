@@ -709,6 +709,146 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "game",
+			"item": [
+				{
+					"name": "new game",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/game/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"game",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "validate",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "token",
+											"value": "64f51e6d5feea",
+											"type": "text"
+										},
+										{
+											"key": "answer_id",
+											"value": "85",
+											"type": "text"
+										},
+										{
+											"key": "finnish",
+											"value": "true",
+											"description": "se manda cuando quieres terminar la ronda",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8000/api/game",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"game"
+									],
+									"query": [
+										{
+											"key": "token",
+											"value": "64f50a64522de",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 Sep 2023 00:02:12 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 Sep 2023 00:02:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.4"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Registro creado correctamente\",\n    \"data\": {\n        \"question\": {\n            \"id\": 106,\n            \"text\": \"Como se dice Claro\",\n            \"answer_type\": \"SINGLE\",\n            \"created_at\": \"2023-09-04T00:01:45.000000Z\",\n            \"updated_at\": \"2023-09-04T00:01:45.000000Z\",\n            \"pivot\": {\n                \"data_id\": 87,\n                \"question_id\": 106\n            },\n            \"answers\": [\n                {\n                    \"id\": 87,\n                    \"description\": null,\n                    \"meaning\": \"Claro\",\n                    \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                    \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                    \"pivot\": {\n                        \"question_id\": 106,\n                        \"data_id\": 87\n                    },\n                    \"images\": [\n                        {\n                            \"id\": 88,\n                            \"name\": \"claro.png\",\n                            \"type\": null,\n                            \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                            \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                            \"url\": \"http://localhost:8000/storage/claro.png\"\n                        }\n                    ]\n                }\n            ]\n        },\n        \"options\": [\n            {\n                \"id\": 85,\n                \"description\": null,\n                \"meaning\": \"Bronce\",\n                \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"pivot\": {\n                    \"category_id\": 7,\n                    \"data_id\": 85\n                },\n                \"images\": [\n                    {\n                        \"id\": 86,\n                        \"name\": \"bronce.png\",\n                        \"type\": null,\n                        \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"url\": \"http://localhost:8000/storage/bronce.png\"\n                    }\n                ]\n            },\n            {\n                \"id\": 80,\n                \"description\": null,\n                \"meaning\": \"Amarillo\",\n                \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"pivot\": {\n                    \"category_id\": 7,\n                    \"data_id\": 80\n                },\n                \"images\": [\n                    {\n                        \"id\": 81,\n                        \"name\": \"amarillo.png\",\n                        \"type\": null,\n                        \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"url\": \"http://localhost:8000/storage/amarillo.png\"\n                    }\n                ]\n            },\n            {\n                \"id\": 92,\n                \"description\": null,\n                \"meaning\": \"Verde\",\n                \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"pivot\": {\n                    \"category_id\": 7,\n                    \"data_id\": 92\n                },\n                \"images\": [\n                    {\n                        \"id\": 93,\n                        \"name\": \"verde.png\",\n                        \"type\": null,\n                        \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"url\": \"http://localhost:8000/storage/verde.png\"\n                    }\n                ]\n            },\n            {\n                \"id\": 87,\n                \"description\": null,\n                \"meaning\": \"Claro\",\n                \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                \"pivot\": {\n                    \"question_id\": 106,\n                    \"data_id\": 87\n                },\n                \"images\": [\n                    {\n                        \"id\": 88,\n                        \"name\": \"claro.png\",\n                        \"type\": null,\n                        \"created_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"updated_at\": \"2023-09-04T00:01:44.000000Z\",\n                        \"url\": \"http://localhost:8000/storage/claro.png\"\n                    }\n                ]\n            }\n        ],\n        \"meta\": {\n            \"correct\": 1,\n            \"incorrect\": 0,\n            \"token\": \"64f51e6d5feea\",\n            \"finnished\": false,\n            \"score\": 1\n        }\n    }\n}"
+						}
+					]
+				}
+			]
 		}
 	],
 	"event": [

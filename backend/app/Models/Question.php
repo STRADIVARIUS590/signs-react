@@ -9,8 +9,9 @@ class Question extends Model
 {
     use HasFactory;
 
+    public static $statuses = ['CURRENT', 'NO_RETURN', 'PASSED'];
 
     public function answers(){
         return $this->belongsToMany(Data::class);
-    }
+    }    
 }
