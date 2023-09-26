@@ -1030,8 +1030,6 @@
             }
         ]
     },
-
-
     {
         "meaning": "Desayuno",
         "images": [
@@ -1045,8 +1043,6 @@
             }
         ]
     },
-
-    
     {
         "meaning": "Ensalada",
         "images": [
@@ -1060,9 +1056,6 @@
             }
         ]
     },
-
-
-
     {
         "meaning": "Hamburguesa",
         "images": [
@@ -1076,8 +1069,6 @@
             }
         ]
     },
-
-
     {
         "meaning": "Harina",
         "images": [
@@ -1091,8 +1082,6 @@
             }
         ]
     },
-
-
       {
         "meaning": "Amarillo",
         "images": [
@@ -1106,7 +1095,6 @@
             }
         ]
     },
-
      {
         "meaning": "Anaranjado",
         "images": [
@@ -1120,7 +1108,6 @@
             }
         ]
     },
-
       {
         "meaning": "Azul Rey",
         "images": [
@@ -1134,7 +1121,6 @@
             }
         ]
     },
-
         {
         "meaning": "Blanco",
         "images": [
@@ -1161,7 +1147,6 @@
             }
         ]
     },
-
        {
         "meaning": "Bronce",
         "images": [
@@ -1175,8 +1160,6 @@
             }
         ]
     },
-    
-
       {
         "meaning": "Cafe",
         "images": [
@@ -1190,7 +1173,6 @@
             }
         ]
     },
-
         {
         "meaning": "Claro",
         "images": [
@@ -1204,7 +1186,6 @@
             }
         ]
     },
-
           {
         "meaning": "Color",
         "images": [
@@ -1218,8 +1199,6 @@
             }
         ]
     },
-
-
          {
         "meaning": "Morado",
         "images": [
@@ -1233,8 +1212,6 @@
             }
         ]
     },
-
-
          {
         "meaning": "Negro",
         "images": [
@@ -1248,9 +1225,6 @@
             }
         ]
     },
-
-
-
 
          {
         "meaning": "Rojo",
@@ -1277,19 +1251,213 @@
                 "name": "Colores"
             }
         ]
+    },
+    {
+        "meaning": "Uno",
+        "images": [
+            {
+                "name": "uno.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Dos",
+        "images": [
+            {
+                "name": "dos.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Tres",
+        "images": [
+            {
+                "name": "tres.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Cuatro",
+        "images": [
+            {
+                "name": "cuatro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Cinco",
+        "images": [
+            {
+                "name": "cinco.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Seis",
+        "images": [
+            {
+                "name": "sies.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Siete",
+        "images": [
+            {
+                "name": "siete.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Ocho",
+        "images": [
+            {
+                "name": "ocho.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Nueve",
+        "images": [
+            {
+                "name": "nueve.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Diez",
+        "images": [
+            {
+                "name": "diez.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Veinte",
+        "images": [
+            {
+                "name": "veinte.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Treinta",
+        "images": [
+            {
+                "name": "treinta.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Cuarenta",
+        "images": [
+            {
+                "name": "cuarenta.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Cincuenta",
+        "images": [
+            {
+                "name": "cincuenta.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Cien",
+        "images": [
+            {
+                "name": "Cien.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
+    },
+    {
+        "meaning": "Mil",
+        "images": [
+            {
+                "name": "mil.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Numeros"
+            }
+        ]
     }
-
-
-
-
-
-
-
-
-    
-
-    
-    
-    
-   
 ]

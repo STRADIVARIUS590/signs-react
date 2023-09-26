@@ -43,5 +43,10 @@
         "name": "Cuerpo humano",
         "images": [],
         "color": "#FFDAB9"
+    },
+    {
+        "name": "Numeros",
+        "images": [],
+        "color": "#4fbdca"
     }
 ]
