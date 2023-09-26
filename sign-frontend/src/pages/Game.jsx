@@ -4,28 +4,45 @@ import { faBackward } from "@fortawesome/free-solid-svg-icons";
 import Swal from 'sweetalert2';
 import Spinner from 'react-bootstrap/Spinner';
 
-function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-}
 
 function Game() {
-    const randomColor1 = getRandomColor();
-    const randomColor2 = getRandomColor();
-    const randomColor3 = getRandomColor();
-    const randomColor4 = getRandomColor();
+    const [data, setData] = useState([]);
+    const [answers, setAnswers] = useState([]);
+    const [imagesLoaded, setImagesLoaded] = useState(0); // Estado para rastrear imágenes cargadas
 
     const [showLoader, setShowLoader] = useState(true);
+    const [token, setToken] = useState("");
+    const [count, setCount] = useState(1);
+    const [aciertos, setAciertos] = useState(0);
+    const [errores, setErrores] = useState(0);
 
     useEffect(() => {
         // Simula un tiempo de carga de 1 segundo
         setTimeout(() => {
             setShowLoader(false);
-        }, 1500);
+        }, 1000);
+    }, []);
+
+    useEffect(() => {
+        var myHeaders = new Headers();
+        myHeaders.append("Authorization", "Bearer " + localStorage.getItem("token"));
+
+        var requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            redirect: 'follow'
+        };
+
+        fetch("http://localhost:8000/api/game/", requestOptions)
+            .then(response => response.text())
+            .then(result => {
+                result = JSON.parse(result);
+                setData(result.data);
+                setAnswers(result.data.options);
+                setToken(result.data.meta.token)
+                console.log(result);
+            })
+            .catch(error => console.log('error', error));
     }, []);
 
     const handleGoBackClick = () => {
@@ -38,13 +55,50 @@ function Game() {
             cancelButtonText: 'Cancelar',
             customClass: {
                 confirmButton: 'red-button',
-                cancelButton: 'gray-button', 
+                cancelButton: 'gray-button',
             },
         }).then((result) => {
             if (result.isConfirmed) {
                 window.history.back(); // Ejemplo de redirección hacia atrás
             }
         });
+    };
+
+    // Función para manejar la solicitud POST
+    const handlePost = (answerId) => {
+        var formdata = new FormData();
+        formdata.append("token", token);
+        formdata.append("answer_id", answerId);
+        formdata.append("finnished", "false");
+
+        var requestOptions = {
+            method: 'POST',
+            body: formdata,
+            redirect: 'follow'
+        };
+
+        fetch("http://localhost:8000/api/game", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                console.log(result)
+                setData(result.data);
+                setAnswers(result.data.options);
+                setToken(result.data.meta.token)
+                setCount(count+1)
+                setAciertos(result.data.meta.correct)
+                setErrores(result.data.meta.incorrect)
+            })
+            .catch(error => console.log('error', error));
+    };
+
+    // Función para manejar la carga de imágenes
+    const handleImageLoad = () => {
+        setImagesLoaded(imagesLoaded + 1);
+
+        // Verifica si todas las imágenes se han cargado
+        if (imagesLoaded === answers.length - 1) {
+            setShowLoader(false);
+        }
     };
 
     return (
@@ -56,14 +110,23 @@ function Game() {
             ) : (
                 <div className="game-body-container">
                     <FontAwesomeIcon icon={faBackward} className='go-back-button' onClick={handleGoBackClick} />
+                    <div className="score">
+                        <h1>Pregunta actual : {count}</h1>
+                        <h2>Aciertos: {aciertos}</h2>
+                        <h2>Errores: {errores}</h2>
+                    </div>
                     <div className="game-body">
-                        <img src="http://localhost:8000/storage/a.png" alt="" />
-                        <h1>¿Que significa esta seña?</h1>
+                        <h1>{data.question.text+'?'}</h1>
                         <div className="game-options">
-                            <button style={{ backgroundColor: randomColor1 }}>Opcion 1</button>
-                            <button style={{ backgroundColor: randomColor2 }}>Opcion 2</button>
-                            <button style={{ backgroundColor: randomColor3 }}>Opcion 3</button>
-                            <button style={{ backgroundColor: randomColor4 }}>Opcion 4</button>
+                            {answers.map((option) => (
+                                <img
+                                key={option.id}
+                                src={option.images[0].url}
+                                alt=""
+                                onClick={() => handlePost(option.id)}
+                                onLoad={handleImageLoad}
+                            />
+                            ))}
                         </div>
                     </div>
                 </div>
