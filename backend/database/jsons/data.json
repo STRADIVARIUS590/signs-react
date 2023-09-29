@@ -1459,5 +1459,331 @@
                 "name": "Numeros"
             }
         ]
+    },
+    {
+        "meaning": "Yo",
+        "images": [
+            {
+                "name": "yo(1).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Yo",
+        "images": [
+            {
+                "name": "yo(2).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Usted",
+        "images": [
+            {
+                "name": "usted.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Tuyo",
+        "images": [
+            {
+                "name": "tuyo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Tu",
+        "images": [
+            {
+                "name": "tu.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Todo",
+        "images": [
+            {
+                "name": "todo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Tambien",
+        "images": [
+            {
+                "name": "tambien.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Todavia",
+        "images": [
+            {
+                "name": "todavia.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Primero",
+        "images": [
+            {
+                "name": "primero.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Para",
+        "images": [
+            {
+                "name": "para.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Mi, mio",
+        "images": [
+            {
+                "name": "mi_mio.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Ésa, ése, eso",
+        "images": [
+            {
+                "name": "esa_se_eso.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Entre",
+        "images": [
+            {
+                "name": "entre(1).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Entre",
+        "images": [
+            {
+                "name": "entre(2).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "En",
+        "images": [
+            {
+                "name": "en.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    }
+    ,
+    {
+        "meaning": "Ellos",
+        "images": [
+            {
+                "name": "ellos.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "El, ella",
+        "images": [
+            {
+                "name": "el_ella.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "De",
+        "images": [
+            {
+                "name": "de.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Contigo",
+        "images": [
+            {
+                "name": "contigo(1).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Contigo",
+        "images": [
+            {
+                "name": "contigo(2).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Conmigo",
+        "images": [
+            {
+                "name": "conmigo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Cada",
+        "images": [
+            {
+                "name": "cada.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Articulo",
+        "images": [
+            {
+                "name": "articulo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Adjetivo",
+        "images": [
+            {
+                "name": "adjetivo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
+    },
+    {
+        "meaning": "Ante",
+        "images": [
+            {
+                "name": "ante.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Adjetivos"
+            }
+        ]
     }
 ]

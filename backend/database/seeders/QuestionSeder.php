@@ -152,6 +152,21 @@ class QuestionSeder extends Seeder
 
                 $question->answers()->attach($d);
             }
+            
+            // adjetivos
+            $a = Data::whereHas('categories', function($q){
+                $q->where('name', 'Adjetivos');
+            })->get();
+
+            foreach($a as $d){
+
+                $question = Question::create([
+                    'text' => 'Como se dice '.$d['meaning'],
+                    'answer_type' => 'SINGLE'
+                ]);
+
+                $question->answers()->attach($d);
+            }
 
 
     }
