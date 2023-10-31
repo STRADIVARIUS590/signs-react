@@ -168,8 +168,49 @@ class QuestionSeder extends Seeder
                 $question->answers()->attach($d);
             }
 
+            // casa
+            $a = Data::whereHas('categories', function($q){
+                $q->where('name', 'Casa');
+            })->get();
 
+            foreach($a as $d){
+
+                $question = Question::create([
+                    'text' => 'Como se dice '.$d['meaning'],
+                    'answer_type' => 'SINGLE'
+                ]);
+
+                $question->answers()->attach($d);
+            }
+
+            // frutas y verduras
+            $a = Data::whereHas('categories', function($q){
+                $q->where('name', 'Frutas y Verduras');
+            })->get();
+
+            foreach($a as $d){
+
+                $question = Question::create([
+                    'text' => 'Como se dice '.$d['meaning'],
+                    'answer_type' => 'SINGLE'
+                ]);
+
+                $question->answers()->attach($d);
+            }
+
+            // republica mexicana
+            $a = Data::whereHas('categories', function($q){
+                $q->where('name', 'Republica Mexicana');
+            })->get();
+
+            foreach($a as $d){
+
+                $question = Question::create([
+                    'text' => 'Como se dice '.$d['meaning'],
+                    'answer_type' => 'SINGLE'
+                ]);
+
+                $question->answers()->attach($d);
+            }
     }
-
-
 }

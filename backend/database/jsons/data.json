@@ -1785,5 +1785,643 @@
                 "name": "Adjetivos"
             }
         ]
+    },
+    {
+        "meaning": "Almohada",
+        "images": [
+            {
+                "name": "almohada.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Azotea",
+        "images": [
+            {
+                "name": "azotea.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Baño",
+        "images": [
+            {
+                "name": "bano.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Barrer",
+        "images": [
+            {
+                "name": "barrer.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Batidora",
+        "images": [
+            {
+                "name": "batidora.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Bote",
+        "images": [
+            {
+                "name": "bote.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Cajón",
+        "images": [
+            {
+                "name": "cajon.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Cama",
+        "images": [
+            {
+                "name": "cama.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Casa",
+        "images": [
+            {
+                "name": "casa(1).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Casa",
+        "images": [
+            {
+                "name": "casa(2).png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Casa"
+            }
+        ]
+    },
+    {
+        "meaning": "Ajo",
+        "images": [
+            {
+                "name": "ajo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Almendra",
+        "images": [
+            {
+                "name": "almendra.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Betabel",
+        "images": [
+            {
+                "name": "betabel.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Cacahuate",
+        "images": [
+            {
+                "name": "cacahuate.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Cebolla",
+        "images": [
+            {
+                "name": "cebolla.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "champiñon",
+        "images": [
+            {
+                "name": "champinon.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Chícharo",
+        "images": [
+            {
+                "name": "chicharo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Chile",
+        "images": [
+            {
+                "name": "chile.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Cilantro",
+        "images": [
+            {
+                "name": "cilantro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Col",
+        "images": [
+            {
+                "name": "col.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Elote",
+        "images": [
+            {
+                "name": "elote.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Fresa",
+        "images": [
+            {
+                "name": "fresa.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Frijol",
+        "images": [
+            {
+                "name": "frijol.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Fruta",
+        "images": [
+            {
+                "name": "fruta.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Jitomate",
+        "images": [
+            {
+                "name": "jitomate.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Lechuga",
+        "images": [
+            {
+                "name": "lechuga.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Limón",
+        "images": [
+            {
+                "name": "limon.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Maíz",
+        "images": [
+            {
+                "name": "maiz.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Frutas y Verduras"
+            }
+        ]
+    },
+    {
+        "meaning": "Aguascalientes",
+        "images": [
+            {
+                "name": "aguascalientes.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Baja California Sur",
+        "images": [
+            {
+                "name": "baja_california_sur.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Baja California",
+        "images": [
+            {
+                "name": "baja_california.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Chiapas",
+        "images": [
+            {
+                "name": "chiapas.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Chihuahua",
+        "images": [
+            {
+                "name": "chihuahua.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Coahuila",
+        "images": [
+            {
+                "name": "coahuila.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Colima",
+        "images": [
+            {
+                "name": "colima.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Durango",
+        "images": [
+            {
+                "name": "durango.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Guanajuato",
+        "images": [
+            {
+                "name": "guanajuato.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Guerrero",
+        "images": [
+            {
+                "name": "guerrero.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Hidalgo",
+        "images": [
+            {
+                "name": "hidalgo.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Jalisco",
+        "images": [
+            {
+                "name": "jalisco.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "México",
+        "images": [
+            {
+                "name": "mexico.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Michoacán",
+        "images": [
+            {
+                "name": "michoacan.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    }
+    ,
+    {
+        "meaning": "Morelos",
+        "images": [
+            {
+                "name": "morelos.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Oaxaca",
+        "images": [
+            {
+                "name": "oaxaca.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Puebla",
+        "images": [
+            {
+                "name": "puebla.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Queretaro",
+        "images": [
+            {
+                "name": "queretaro.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Sinaloa",
+        "images": [
+            {
+                "name": "sinaloa.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Sonora",
+        "images": [
+            {
+                "name": "sonora.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
+    },
+    {
+        "meaning": "Tabasco",
+        "images": [
+            {
+                "name": "tabasco.png"
+            }
+        ],
+        "categories":[
+            {
+                "name": "Republica Mexicana"
+            }
+        ]
     }
 ]

@@ -47,6 +47,16 @@
     {
         "name": "Numeros",
         "images": [],
-        "color": "#4fbdca"
+        "color": "#4FBDCA"
+    },
+    {
+        "name": "Frutas y Verduras",
+        "images": [],
+        "color": "#3ADB75"
+    },
+    {
+        "name": "Republica Mexicana",
+        "images": [],
+        "color": "#F62A2A"
     }
 ]
