@@ -45,17 +45,19 @@ function Home() {
 
                         </div>
                     </Link>
-                    <div className="home-options-card-rules">
-                        <a><FontAwesomeIcon icon={faQuestionCircle} style={{ fontSize: '5rem' }} /></a>
-                        <h1>Reglas</h1>
-                    </div>
+                    <Link to={'/rules'}>
+                        <div className="home-options-card-rules">
+                            <a><FontAwesomeIcon icon={faQuestionCircle} style={{ fontSize: '5rem' }} /></a>
+                            <h1>Reglas</h1>
+                        </div>
+                    </Link>
+                    
                 </div>
                 {localStorage.getItem('toke') ? (<div className="home-buttons">
                     <Link to={`/login`}><a className="signin-button">Iniciar Sesion</a></Link>
                     <Link to={'/register'}><a className="register-button">Registrarme</a></Link>
                 </div>) : ('')}
             </div>
-            {/* <img src={url} alt="No se carga la imagen" /> */}
         </>
     )
 }

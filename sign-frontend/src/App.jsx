@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Categories from './pages/Categories'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Game from './pages/Game';
+import Rules from './pages/Rules';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/categories" element={<Categories />} />
-          <Route path="/game" element={<Game />} />
+          <Route path="/game/:id" element={<Game />} />
+          <Route path="/rules" element={<Rules />} />
         </Routes>
       </>
     </Router>

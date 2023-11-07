@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser,faKey } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
@@ -29,12 +29,17 @@ const Login = () => {
         setErrorMessage('El correo o la contraseña son incorrectos');
       } else {
         localStorage.setItem('token', data.data.token);
+        localStorage.setItem('user', data.data.name);
         window.location.href = '/';
       }
     } catch (error) {
       console.error('Error al iniciar sesión:', error);
     }
   };
+
+  useEffect(() => {
+    localStorage.clear();
+}, []);
 
   return (
     <>

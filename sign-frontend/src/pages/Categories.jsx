@@ -4,8 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import NavBar from '../components/NavBar';
 import Carousel from 'react-bootstrap/Carousel';
- 
-
+import Swal from 'sweetalert2';
 
 function Example() {
     const [show, setShow] = useState(false);
@@ -22,10 +21,20 @@ function Example() {
         setShow(true);
     };
 
-    const handlePlay = () => {
+    const handlePlay = (id, count) => {
         if (localStorage.getItem('token')) {
             // Redirigir a la página 'game' si hay un token en el localStorage
-            window.location.href = '/game';
+            count > 0 ? (
+                localStorage.setItem('numPreguntas',count),
+                window.location.href = `/game/${id}`
+
+            ) : (
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Lo sentimos',
+                    text: 'Por el momento no hay preguntas para esa categoria, intenta con otra!',
+                })
+            )
         } else {
             // Redirigir a la página 'login' si no hay un token en el localStorage
             window.location.href = '/login';
@@ -40,7 +49,7 @@ function Example() {
 
 
     useEffect(() => {
-        const apiUrl = 'http://localhost:8000/api/categories';
+        const apiUrl = 'https://diloconsenas.uabcs.net/api/categories';
         fetch(apiUrl)
             .then((response) => {
                 if (!response.ok) {
@@ -58,7 +67,7 @@ function Example() {
 
     useEffect(() => {
         if (activeCategoryId !== null) {
-            const apiUrl = `http://localhost:8000/api/categories/${activeCategoryId}`;
+            const apiUrl = `https://diloconsenas.uabcs.net/api/categories/${activeCategoryId}`;
             fetch(apiUrl)
                 .then((response) => {
                     if (!response.ok) {
@@ -89,8 +98,10 @@ function Example() {
                         </>) : (<img src='https://images.vexels.com/media/users/3/230796/isolated/preview/28fd4675876fbf3f580ab5b0a9785449-dibujos-animados-de-rebanada-de-pizza-feliz.png' alt="No carga la imagen" />)}
                         <h1>{categorie.name}</h1>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                            <Button style={{ borderRadius: '5px', border: 'solid 1px black' }} variant={'success'} onClick={handlePlay}>Jugar</Button>
+                            {console.log(categorie)}
+                            <Button style={{ borderRadius: '5px', border: 'solid 1px black' }} variant={'success'} onClick={() => handlePlay(categorie.id, categorie.question_count)}>Jugar</Button>
                             <Button style={{ borderRadius: '5px', border: 'solid 1px black' }} variant={'primary'} onClick={() => handleShow(categorie.id)}>Aprender</Button>
+                            <p style={{ fontSize: "8px" }}>Preguntas disponible {categorie.question_count}</p>
                         </div>
                     </div>
                 ))}

@@ -5,16 +5,19 @@ import Swal from 'sweetalert2';
 import Spinner from 'react-bootstrap/Spinner';
 
 
+
 function Game() {
     const [data, setData] = useState([]);
     const [answers, setAnswers] = useState([]);
     const [imagesLoaded, setImagesLoaded] = useState(0); // Estado para rastrear imágenes cargadas
-
     const [showLoader, setShowLoader] = useState(true);
     const [token, setToken] = useState("");
     const [count, setCount] = useState(1);
     const [aciertos, setAciertos] = useState(0);
     const [errores, setErrores] = useState(0);
+    const url = window.location.pathname;
+    const segments = url.split("/");
+    const ultimoValor = segments[segments.length - 1];
 
     useEffect(() => {
         // Simula un tiempo de carga de 1 segundo
@@ -33,7 +36,7 @@ function Game() {
             redirect: 'follow'
         };
 
-        fetch("http://localhost:8000/api/game/", requestOptions)
+        fetch(`http://localhost:8000/api/game/${ultimoValor}`, requestOptions)
             .then(response => response.text())
             .then(result => {
                 result = JSON.parse(result);
@@ -66,27 +69,57 @@ function Game() {
 
     // Función para manejar la solicitud POST
     const handlePost = (answerId) => {
-        var formdata = new FormData();
-        formdata.append("token", token);
-        formdata.append("answer_id", answerId);
-        formdata.append("finnished", "false");
+
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        myHeaders.append("Authorization", "Bearer " + localStorage.getItem("token"));
+
+        var raw = JSON.stringify({
+            "token": token,
+            "answer_id": answerId,
+            "finnished": (count === (localStorage.getItem("numPreguntas") - 1))
+        });
 
         var requestOptions = {
             method: 'POST',
-            body: formdata,
+            headers: myHeaders,
+            body: raw,
             redirect: 'follow'
         };
+
 
         fetch("http://localhost:8000/api/game", requestOptions)
             .then(response => response.json())
             .then(result => {
-                console.log(result)
+                (result.data.meta.correct > aciertos ? (Swal.fire({
+                    icon: 'success',
+                    title: 'Respuesta correcta',
+                    showConfirmButton: false,
+                    timer: 1500
+                })) : (Swal.fire({
+                    icon: 'error',
+                    title: 'Respuesta incorrecta',
+                    showConfirmButton: false,
+                    timer: 1500
+                })))
                 setData(result.data);
                 setAnswers(result.data.options);
                 setToken(result.data.meta.token)
-                setCount(count+1)
                 setAciertos(result.data.meta.correct)
                 setErrores(result.data.meta.incorrect)
+                setCount(count + 1)
+                count >= localStorage.getItem('numPreguntas') ? (
+                    Swal.fire({
+                        title: 'Juego finalizado',
+                        text: "Haz obtenido una puntuacion de " + result.data.meta.correct + ' aciertos',
+                        icon: 'success',
+                        confirmButtonColor: '#3085d6',
+                        confirmButtonText: 'Continuar'
+                    }).then((result) => {
+                        if (result.isConfirmed) {
+                            window.location.href = "/categories"
+                        }
+                    })) : ('')
             })
             .catch(error => console.log('error', error));
     };
@@ -116,16 +149,16 @@ function Game() {
                         <h2>Errores: {errores}</h2>
                     </div>
                     <div className="game-body">
-                        <h1>{data.question.text+'?'}</h1>
+                        <h1>{data.question.text + '?'}</h1>
                         <div className="game-options">
                             {answers.map((option) => (
                                 <img
-                                key={option.id}
-                                src={option.images[0].url}
-                                alt=""
-                                onClick={() => handlePost(option.id)}
-                                onLoad={handleImageLoad}
-                            />
+                                    key={option.id}
+                                    src={option.images[0].url}
+                                    alt=""
+                                    onClick={() => handlePost(option.id)}
+                                    onLoad={handleImageLoad}
+                                />
                             ))}
                         </div>
                     </div>
@@ -134,5 +167,6 @@ function Game() {
         </>
     );
 }
+
 
 export default Game;

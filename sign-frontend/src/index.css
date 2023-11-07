@@ -246,12 +246,12 @@ html {
 }
 
 .categorie-card {
-    width: calc(33.33% - 2rem);
+    width: calc(33.33% - 3rem);
     /* Aproximadamente un tercio del ancho con espacio para el margen */
     display: flex;
     align-items: center;
     height: 10rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 1rem;
     box-sizing: border-box;
     /* Incluye el padding y el borde en el ancho */
