@@ -8,9 +8,7 @@ function Home() {
     const [url, setUrl] = useState('');
 
     useEffect(() => {
-        // URL de la API que deseas consultar
-        // const [data, setData] = useState([]);
-        const apiUrl = 'http://localhost:8000/api/categories/1';
+        const apiUrl = 'https://diloconsenas.uabcs.net/api/';
 
 
         fetch(apiUrl)
@@ -28,11 +26,6 @@ function Home() {
             });
     }, []);
 
-
-    // const token = localStorage.getItem('token');
-    // if (!token) {
-    //     window.location.href = '/login';
-    // }
     return (
         <>
             <NavBar />

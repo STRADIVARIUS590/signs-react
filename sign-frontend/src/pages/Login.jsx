@@ -15,7 +15,7 @@ const Login = () => {
       formData.append('name', username);
       formData.append('password', password);
 
-      const response = await fetch('http://localhost:8000/api/users/login', {
+      const response = await fetch('https://diloconsenas.uabcs.net/api/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'

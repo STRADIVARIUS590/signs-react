@@ -6,10 +6,7 @@ function NavBar() {
     return (
         <>
             <header className="navbar-container">
-                <Link to='/'><img src='https://cdn-icons-png.flaticon.com/512/7161/7161984.png' style={{width:"80px"}} alt="No jala" /></Link>
-                <div className="how-to-play">
-                    <Link to={"/rules"} ><a><FontAwesomeIcon icon={faGamepad} /><i> Como Jugar</i></a></Link>
-                </div>
+                <Link to='/'><img src='https://uabcs.net/diloconsenas/icon.png' style={{width:"80px"}} alt="No jala" /></Link>
                 {localStorage.getItem('token') ? (<div className="how-to-play">
                     <Dropdown>
                         <Dropdown.Toggle style={{backgroundColor:"transparent", border:"solid 1px white"}} id="dropdown-basic">

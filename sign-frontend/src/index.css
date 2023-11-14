@@ -13,12 +13,11 @@ html {
     padding: 0;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
     background-color: rgba(52, 81, 155, 0.93);
 }
 
 .navbar-container img {
-    width: 6rem;
+    width: 4rem;
 }
 
 .navbar-container ul {

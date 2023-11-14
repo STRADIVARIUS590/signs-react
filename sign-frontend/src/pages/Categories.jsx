@@ -92,10 +92,6 @@ function Example() {
             <div className='categorie-body-container'>
                 {data.map((categorie) => (
                     <div className='categorie-card' key={categorie.id} style={{ backgroundColor: `${categorie.color}` }}>
-                        {console.log(categorie)}
-                        {categorie.image ? (<>
-                            <img src={categorie.image.url} alt="No carga la imagen" />
-                        </>) : (<img src='https://images.vexels.com/media/users/3/230796/isolated/preview/28fd4675876fbf3f580ab5b0a9785449-dibujos-animados-de-rebanada-de-pizza-feliz.png' alt="No carga la imagen" />)}
                         <h1>{categorie.name}</h1>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                             {console.log(categorie)}

@@ -36,7 +36,7 @@ function Game() {
             redirect: 'follow'
         };
 
-        fetch(`http://localhost:8000/api/game/${ultimoValor}`, requestOptions)
+        fetch(`https://diloconsenas.uabcs.net/api/game/${ultimoValor}`, requestOptions)
             .then(response => response.text())
             .then(result => {
                 result = JSON.parse(result);
@@ -88,7 +88,7 @@ function Game() {
         };
 
 
-        fetch("http://localhost:8000/api/game", requestOptions)
+        fetch("https://diloconsenas.uabcs.net/api/game", requestOptions)
             .then(response => response.json())
             .then(result => {
                 (result.data.meta.correct > aciertos ? (Swal.fire({
