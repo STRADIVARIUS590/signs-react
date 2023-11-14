@@ -17,7 +17,7 @@ const Register = () => {
             formData.append('password', password);
             formData.append('email', email);
 
-            const response = await fetch('http://localhost:8000/api/users', {
+            const response = await fetch('https://diloconsenas.uabcs.net/api/users', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded'
